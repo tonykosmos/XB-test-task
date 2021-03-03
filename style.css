@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.component-content {
+    margin: 0 auto;
+    width: 70%;
+    background: #dfdfdf;
+    min-height: 150px;
+    border: 3px solid #a09f9f;
+    padding: 5px;
+}
+
+.tags-container,
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-tag-name {
+    outline: none;
+    height: 30px;
+    width: 80px;
+}
+
+.tag {
+    display: flex;
+    min-width: 80px;
+    height: 30px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background: #0deb7c;
+    border: 2px solid #067e42;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-name {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.delete-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 5px;
+    user-select: none;
+}
+
+.delete-icon:hover {
+    color: #6a6b6b;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-tag-button {
+    background: #f80606;
+    color: #ffffff;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add-tag-button:hover {
+    background: #a50000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#readonly-checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+.readonly-checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-block {
+    display: flex;
+    width: 170px;
+}
+
+.tag-control-area {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 30px;
+    margin-top: 10px;
+}
