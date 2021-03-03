@@ -17,10 +17,10 @@ function addNewTag() {
 
     const tagsContainer = document.querySelector('.tags-container');
     const tagBlock = document.createElement('div');
-    tagBlock.className = 'tag';
     const tagName = document.createElement('div');
-    tagName.className = 'tag-name';
     const tagDeleteIcon = document.createElement('div');
+    tagBlock.className = 'tag';
+    tagName.className = 'tag-name';
     tagDeleteIcon.className = 'delete-icon';
     tagDeleteIcon.innerHTML = '&#10060;';
 
